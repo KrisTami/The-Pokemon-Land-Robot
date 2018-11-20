@@ -46,7 +46,7 @@ exports.watchconfig = true;
 
 exports.nick = 'Robot Bart Simpson';
 
-exports.pass = '';
+exports.pass = 'waylonsmithersjr';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['lobby'];
+exports.rooms = ['lobby'],['staff'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -128,7 +128,7 @@ exports.botguide = "https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/m
 
 //When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
 //The var #USER is replaced with the username that pms it
-exports.pmhelp = "Hi #USER! I am a robot, please PM another staff member if you need help. Command guide: https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/commands/README.md";
+exports.pmhelp = "Welcome to the club, man! I'm Bart Simpson! You can always use use the .help command to view the guidelines!";
 
 /*
 * Language configuration

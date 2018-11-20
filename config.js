@@ -391,11 +391,7 @@ exports.github = {
 * Groupchats
 */
 
-exports.groupchats['lobby'] = {
-	toJoin: ['/join lobby'],
-	onJoin: ['Cowabunga, man!'],
-	onLeave: []
-};
+exports.groupchats= {};
 
 exports.groupChatTryJoinInterval = 60 * 1000;
 

@@ -64,7 +64,7 @@ exports.rooms = ['all'];
 */
 
 exports.privateRooms = { //Rooms listed here will be ignored by seen command
-	//privateroomname: true
+	//privateroomname: false
 };
 
 exports.ignoreRooms = { //Rooms listed here will be ignored by CommandParser (bot is "asleep" in those rooms)

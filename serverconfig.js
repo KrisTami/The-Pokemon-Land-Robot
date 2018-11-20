@@ -7,11 +7,10 @@
 require('sugar');
 var colors = require('colors');
 var readline = require('readline');
-var sys = require('sys');
+var sys = require('util');
 var url = require('url');
 var http = require('http');
 var fs = require('fs');
-var sys = require('util');
 
 var rl = readline.createInterface({
   input: process.stdin,

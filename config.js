@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'pkland.glitch.me.psim.us';
+exports.server = 'localhost';
 
 exports.port = 8000;
 
-exports.serverid = 'pkland';
+exports.serverid = 'localhost';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;

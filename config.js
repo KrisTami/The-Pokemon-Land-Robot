@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['lobby'];
+exports.rooms = ['all'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms

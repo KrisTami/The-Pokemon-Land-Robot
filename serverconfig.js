@@ -11,6 +11,7 @@ var sys = require('sys');
 var url = require('url');
 var http = require('http');
 var fs = require('fs');
+const util = require('util');
 
 var rl = readline.createInterface({
   input: process.stdin,

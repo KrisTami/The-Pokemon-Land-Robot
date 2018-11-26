@@ -147,6 +147,7 @@ exports.debug = {
 	errlog: true,
 	info: true,
 	room: true,
+	battle: true,
 
 	/* Monitoring */
 	monitor: true,
@@ -156,10 +157,12 @@ exports.debug = {
 	/* Debug Mode */
 	debug: true,
 	cmdr: true,
+	battle: true,
 
 	/* Low Level */
 	recv: false,
-	sent: false
+	sent: false,
+	battle: true
 };
 
 /*

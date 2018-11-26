@@ -64,7 +64,7 @@ exports.rooms = ['lobby'], ['staff'], ['public'];
 */
 
 exports.privateRooms = { //Rooms listed here will be ignored by seen command
-	//privateroomname: false
+	//privateroomname: true
 };
 
 exports.ignoreRooms = { //Rooms listed here will be ignored by CommandParser (bot is "asleep" in those rooms)
@@ -152,17 +152,14 @@ exports.debug = {
 	/* Monitoring */
 	monitor: true,
 	status: true,
-	battle: true,
 
 	/* Debug Mode */
 	debug: true,
 	cmdr: true,
-	battle: true,
 
 	/* Low Level */
-	recv: false,
-	sent: false,
-	battle: true
+	recv: true,
+	sent: true
 };
 
 /*
@@ -301,7 +298,9 @@ exports.formatAliases = {
 	'vgc': 'Battle Spot Doubles (VGC 2015)',
 	'vgc2015': 'Battle Spot Doubles (VGC 2015)',
 	'ag': 'Anything Goes',
-	'oras': 'OU',
+	'usum': 'OU',
+	'oras': '[Gen 6] OU',
+	'xy': '[Gen 6] OU',
 	'bw': '[Gen 5] OU',
 	'dpp': '[Gen 4] OU',
 	'adv': '[Gen 3] OU',
@@ -339,7 +338,7 @@ exports.leaderboards['tournaments'] = {
 */
 
 exports.youtube = {
-	enableByDefault: false
+	enableByDefault: true
 };
 
 /*

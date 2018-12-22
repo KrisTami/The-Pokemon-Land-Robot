@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = 'Robot Bart Simpson';
+exports.nick = 'Speedy the Jolteon';
 
-exports.pass = 'waylonsmithersjr';
+exports.pass = 'pklandjr';
 
 exports.autoReloginDelay = 60 * 1000;
 

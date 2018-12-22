@@ -44,7 +44,7 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = 'Speedy the Jolteon';
+exports.nick = 'X-Speed Jolteon';
 
 exports.pass = 'pklandjr';
 

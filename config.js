@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'pkland.glitch.me';
+exports.server = 'localhost';
 
-exports.port = 80;
+exports.port = 8000;
 
-exports.serverid = 'pkland.glitch.me:80';
+exports.serverid = 'localhost:8000';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;
@@ -128,7 +128,7 @@ exports.botguide = "https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/m
 
 //When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
 //The var #USER is replaced with the username that pms it
-exports.pmhelp = "Welcome to the club, man! I'm Bart Simpson! You can always use use the .help command to view the guidelines!";
+exports.pmhelp = "Welcome to the club, man! I'm Speedy, and you can always use use the .help command to view the guidelines!";
 
 /*
 * Language configuration

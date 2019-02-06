@@ -11,6 +11,6 @@ exports.teams = {
 			  ],
 	"gen7inversebattle": ['Needham|shedinja|focussash||swordsdance,xscissor,shadowsneak,willowisp|Adamant|,252,,,4,252|||||]Cyzzle|diancie|shucaberry||stealthrock,moonblast,powergem,earthpower|Modest|188,,,252,,68|||||]Crush|charizard|charizarditex||flareblitz,dragonclaw,earthquake,roost|Jolly|,252,,,4,252|M||||]Skipp|greninjaash|choicespecs||hydropump,darkpulse,watershuriken,spikes|Timid|,,4,252,,252|||||]Splish|kartana|choiceband||leafblade,knockoff,sacredsword,smartstrike|Jolly|4,252,,,,252|||||]Rich V. Bongus|groudon|redorb||stealthrock,swordsdance,precipiceblades,rocktomb|Adamant|144,156,,,56,152|||||' 
 			  ],
-	"gen7revelationsinglesnorestrictions": ['Example|eevee|eviolite|simple|lastresort,badmockery,batonpass,acupressure|Adamant|252,252,252,252,252,252|F||S||]Example2|xtypefairy|leftovers|typeshift|varishot,badmockery,glowingblitz,teleport||,252,252,252,252,252|M||S||' 
+	"gen7revelationbalancedhackmons": ['Example|eevee|eviolite|simple|lastresort,badmockery,batonpass,acupressure|Adamant|252,252,252,252,252,252|F||S||]Example2|xtypefairy|leftovers|typeshift|varishot,badmockery,glowingblitz,teleport||,252,252,252,252,252|M||S||' 
 			  ]
 };

@@ -10,7 +10,7 @@ devDependencies:
   gulp-jshint: 2.0.4
   gulp-replace: 0.5.4
   jshint-stylish: 2.1.0
-  lazypipe: 1.0.1
+  lazypipe: 1.0.2
   merge-stream: 1.0.1
   mocha: 2.3.4
 optionalDependencies:
@@ -219,7 +219,7 @@ packages:
       regenerator: 0.8.40
       regexpu: 1.3.0
       repeating: 1.1.3
-      resolve: 1.8.1
+      resolve: 1.9.0
       shebang-regex: 1.0.0
       slash: 1.0.0
       source-map: 0.5.7
@@ -729,20 +729,20 @@ packages:
     dev: true
     resolution:
       integrity: sha1-vSh3PiZCiBrsUVRJJCmcXNgiGFs=
-  /domelementtype/1.2.1:
+  /domelementtype/1.3.1:
     dev: true
     resolution:
-      integrity: sha512-SQVCLFS2E7G5CRCMdn6K9bIhRj1bS6QBWZfF0TUPh4V/BbqrQ619IdSS3/izn0FZ+9l+uODzaZjb08fjOfablA==
+      integrity: sha512-BSKB+TSpMpFI/HOxCNr1O8aMOTZ8hT3pM3GQ0w/mWRmkhEDSFJkkyzz4XQsBV44BChwGkrDfMyjVD0eA2aFV3w==
   /domhandler/2.3.0:
     dependencies:
-      domelementtype: 1.2.1
+      domelementtype: 1.3.1
     dev: true
     resolution:
       integrity: sha1-LeWaCCLVAn+r/28DLCsloqir5zg=
   /domutils/1.5.1:
     dependencies:
       dom-serializer: 0.1.0
-      domelementtype: 1.2.1
+      domelementtype: 1.3.1
     dev: true
     resolution:
       integrity: sha1-3NhIiib1Y9YQeeSMn3t+Mjc2gs8=
@@ -964,16 +964,17 @@ packages:
       node: '> 0.1.90'
     resolution:
       integrity: sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
-  /fancy-log/1.3.2:
+  /fancy-log/1.3.3:
     dependencies:
       ansi-gray: 0.1.1
       color-support: 1.1.3
+      parse-node-version: 1.0.0
       time-stamp: 1.1.0
     dev: true
     engines:
       node: '>= 0.10'
     resolution:
-      integrity: sha1-9BEl49hPLn2JpD0G2VjI94vha+E=
+      integrity: sha512-k9oEhlyc0FrVh25qYuSELjr8oxsCoc4/LEZfg2iJJrfEk/tZL9bCoJE47gqAvI2m/AUjluCS4+3I0eTx8n3AEw==
   /fill-range/4.0.0:
     dependencies:
       extend-shallow: 2.0.1
@@ -1000,7 +1001,7 @@ packages:
       node: '>= 0.10'
     resolution:
       integrity: sha1-kyaxSIwi0aYIhlCoaQGy2akKLLw=
-  /fined/1.1.0:
+  /fined/1.1.1:
     dependencies:
       expand-tilde: 2.0.2
       is-plain-object: 2.0.4
@@ -1011,19 +1012,19 @@ packages:
     engines:
       node: '>= 0.10'
     resolution:
-      integrity: sha1-s33IRLdqL15wgeiE98CuNE8VNHY=
+      integrity: sha512-jQp949ZmEbiYHk3gkbdtpJ0G1+kgtLQBNdP5edFP7Fh+WAYceLQz6yO1SBj72Xkg8GVyTB3bBzAYrHJVh5Xd5g==
   /first-chunk-stream/1.0.0:
     dev: true
     engines:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Wb+1DNkF9g18OUzT2ayqtOatk04=
-  /flagged-respawn/1.0.0:
+  /flagged-respawn/1.0.1:
     dev: true
     engines:
-      node: '>= 0.8.0'
+      node: '>= 0.10'
     resolution:
-      integrity: sha1-Tnmumy6zi/hrO7Vr8+ClaqX8q9c=
+      integrity: sha512-lNaHNVymajmk0OJMBn8fVUAU1BtDeKIqKoVhk4xAALB57aALg6b4W0MfJ/cUE0g9YBXy5XhSlPIpYIJ7HaY/3Q==
   /for-in/1.0.2:
     dev: true
     engines:
@@ -1204,14 +1205,14 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-2cjt3h2nnRJaFRt5UzuXhnY0auU=
-  /glogg/1.0.1:
+  /glogg/1.0.2:
     dependencies:
       sparkles: 1.0.1
     dev: true
     engines:
       node: '>= 0.10'
     resolution:
-      integrity: sha512-ynYqXLoluBKf9XGR1gA59yEJisIL7YHEH4xr3ZziHB5/yl4qWfaK8Js9jGe6gBGCSCKVqiyO30WnRZADvemUNw==
+      integrity: sha512-5mwUoSuBk44Y4EshyiqcH95ZntbDdTQqA3QYSrxmzj28Ai0vXBGMH1ApSANH14j2sIRtqCEyg6PfsuP7ElOEDA==
   /graceful-fs/1.2.3:
     deprecated: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
     dev: true
@@ -1304,7 +1305,7 @@ packages:
       beeper: 1.1.1
       chalk: 1.1.3
       dateformat: 2.2.0
-      fancy-log: 1.3.2
+      fancy-log: 1.3.3
       gulplog: 1.0.0
       has-gulplog: 0.1.0
       lodash._reescape: 3.0.0
@@ -1329,7 +1330,7 @@ packages:
       chalk: 1.1.3
       deprecated: 0.0.1
       gulp-util: 3.0.8
-      interpret: 1.1.0
+      interpret: 1.2.0
       liftoff: 2.5.0
       minimist: 1.2.0
       orchestrator: 0.3.8
@@ -1346,7 +1347,7 @@ packages:
       integrity: sha1-VxzkWSjdQK9lFPxAEYZgFsE4RbQ=
   /gulplog/1.0.0:
     dependencies:
-      glogg: 1.0.1
+      glogg: 1.0.2
     dev: true
     engines:
       node: '>= 0.10'
@@ -1428,7 +1429,7 @@ packages:
       integrity: sha1-TCu8inWJmP7r9e1oWA921GdotLw=
   /htmlparser2/3.8.3:
     dependencies:
-      domelementtype: 1.2.1
+      domelementtype: 1.3.1
       domhandler: 2.3.0
       domutils: 1.5.1
       entities: 1.0.0
@@ -1473,10 +1474,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
-  /interpret/1.1.0:
+  /interpret/1.2.0:
     dev: true
+    engines:
+      node: '>= 0.10'
     resolution:
-      integrity: sha1-ftGxQQxqDg94z5XTuEQMY/eLhhQ=
+      integrity: sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
   /invert-kv/1.0.0:
     dev: true
     engines:
@@ -1739,7 +1742,7 @@ packages:
       pathval: 0.1.1
       prompt: 0.2.14
       reserved-words: 0.1.2
-      resolve: 1.8.1
+      resolve: 1.9.0
       strip-bom: 2.0.0
       strip-json-comments: 1.0.4
       to-double-quotes: 2.0.0
@@ -1825,14 +1828,14 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-odePw6UEdMuAhF07O24dpJpEbo4=
-  /lazypipe/1.0.1:
+  /lazypipe/1.0.2:
     dependencies:
       stream-combiner: 0.2.2
     dev: true
     engines:
       node: '>= 0.8.0'
     resolution:
-      integrity: sha1-FHGu9rN6NA1Rw030Rpnc7wZMGUA=
+      integrity: sha512-CrU+NYdFHW8ElaeXCWz5IbmetiYVYq1fOCmpdAeZ8L+khbv1e7EnshyjlKqkO+pJbVPrsJQnHbVxEiLujG6qhQ==
   /lcid/1.0.0:
     dependencies:
       invert-kv: 1.0.0
@@ -1852,12 +1855,12 @@ packages:
     dependencies:
       extend: 3.0.2
       findup-sync: 2.0.0
-      fined: 1.1.0
-      flagged-respawn: 1.0.0
+      fined: 1.1.1
+      flagged-respawn: 1.0.1
       is-plain-object: 2.0.4
       object.map: 1.0.1
       rechoir: 0.6.2
-      resolve: 1.8.1
+      resolve: 1.9.0
     dev: true
     engines:
       node: '>= 0.8'
@@ -2165,14 +2168,14 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Ko8t33Du1WTf8tV/HhoTfZ8FB4s=
-  /mute-stream/0.0.7:
+  /mute-stream/0.0.8:
     dev: true
     resolution:
-      integrity: sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
-  /nan/2.11.1:
+      integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
+  /nan/2.12.1:
     dev: false
     resolution:
-      integrity: sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==
+      integrity: sha512-JY7V6lRkStKcKTvHO5NVSQRv+RV+FIL5pvDoLiAtSL9pKlC5x9PKQcZDsq7m4FO4d57mkhC6Z+QhAh3Jdk5JFw==
   /nanomatch/1.2.13:
     dependencies:
       arr-diff: 4.0.0
@@ -2351,6 +2354,12 @@ packages:
       node: '>=0.8'
     resolution:
       integrity: sha1-pjISf1Oq89FYdvWHLz/6x2PWyJE=
+  /parse-node-version/1.0.0:
+    dev: true
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha512-02GTVHD1u0nWc20n2G7WX/PgdhNFG04j5fi1OkaJzPWLTcf6vh6229Lta1wTmXG/7Dg42tCssgkccVt7qvd8Kg==
   /parse-passwd/1.0.0:
     dev: true
     engines:
@@ -2479,7 +2488,7 @@ packages:
       integrity: sha1-WNIpi0YtC5v9ITPSoex0+9cFxxc=
   /read/1.0.7:
     dependencies:
-      mute-stream: 0.0.7
+      mute-stream: 0.0.8
     dev: true
     engines:
       node: '>=0.8'
@@ -2557,7 +2566,7 @@ packages:
       integrity: sha1-RR/TAEqx5N+bTktmN2sqIZEkYtM=
   /rechoir/0.6.2:
     dependencies:
-      resolve: 1.8.1
+      resolve: 1.9.0
     dev: true
     engines:
       node: '>= 0.10'
@@ -2664,12 +2673,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
-  /resolve/1.8.1:
+  /resolve/1.9.0:
     dependencies:
       path-parse: 1.0.6
     dev: true
     resolution:
-      integrity: sha512-AicPrAC7Qu1JxPCZ9ZgCZlY35QgFnNqc+0LtbRNxnVw4TXvjQ72wnuL9JQcEBgXkI9JM8MsT9kaQoHcpCRJOYA==
+      integrity: sha512-TZNye00tI67lwYvzxCxHGjwTNlUV70io54/Ed4j6PscB8xVfuBJpRenI/o6dVk0cY0PYTY27AgCoGGxRnYuItQ==
   /ret/0.1.15:
     dev: true
     engines:
@@ -3238,7 +3247,7 @@ packages:
   /websocket/1.0.26:
     dependencies:
       debug: 2.6.9
-      nan: 2.11.1
+      nan: 2.12.1
       typedarray-to-buffer: 3.1.5
       yaeti: 0.0.6
     dev: false
